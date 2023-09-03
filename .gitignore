@@ -1,0 +1,28 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore dirs
+!baritone/
+!config/
+!defaultconfigs/
+!lightspeed-cache/
+!mods/
+!shaderpacks/
+
+!baritone/**/*
+!config/**/*
+!mods/**/*
+!defaultconfigs/**/*
+!lightspeed-cache/**/*
+!shaderpacks/**/*
+
+# Unignore files
+!servers.dat
+!optionsof.txt
+!options.txt
+
+# Ignore files
+*.log

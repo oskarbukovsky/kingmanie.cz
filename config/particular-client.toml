@@ -1,0 +1,45 @@
+
+["Ceiling Debris"]
+	#Random animation tick chance that this effect happens, a zero input avoids processing altogether.
+	#Range: 0.0 ~ 1.0
+	Chance = 0.003
+	#Range: 0 ~ 100000
+	MinParticles = 1
+	#Range: 0 ~ 100000
+	MaxParticles = 7
+	AppliedToBlocks = "#minecraft:base_stone_overworld #minecraft:base_stone_nether"
+
+["Block Shine"]
+	#Random animation tick chance that this effect happens, a zero input avoids processing altogether.
+	#Range: 0.0 ~ 1.0
+	Chance = 0.5
+	AppliedToBlocks = "#minecraft:copper_ores #minecraft:iron_ores #minecraft:redstone_ores #minecraft:lapis_ores #minecraft:gold_ores #minecraft:diamond_ores #minecraft:emerald_ores minecraft:ancient_debris minecraft:raw_copper_block minecraft:raw_iron_block minecraft:raw_gold_block minecraft:small_amethyst_bud minecraft:medium_amethyst_bud minecraft:large_amethyst_bud minecraft:amethyst_cluster "
+
+[Explosion]
+	#Particle amount range for each explosion.
+	#Range: 0 ~ 100000
+	MinParticles = 1
+	#Range: 0 ~ 100000
+	MaxParticles = 7
+
+["Squid Ink Splash"]
+	#Range: 0.0 ~ 16.0
+	EjectionStrength = 0.8
+	#Particle amount range for each Squid hurt.
+	#Range: 0 ~ 100000
+	MinParticles = 5
+	#Range: 0 ~ 100000
+	MaxParticles = 9
+
+[Fireflies]
+	#Random animation tick chance that this effect happens, a zero input avoids processing altogether.
+	#Range: 0.0 ~ 1.0
+	Chance = 0.3
+	AppliedToBlocks = "minecraft:lantern minecraft:soul_lantern"
+
+["Flying Souls"]
+	#Random animation tick chance that this effect happens, a zero input avoids processing altogether.
+	#Range: 0.0 ~ 1.0
+	Chance = 0.05
+	AppliedToBlocks = "minecraft:soul_fire"
+

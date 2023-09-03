@@ -1,0 +1,11 @@
+{
+  "uuid": "f8c17dfc-b25a-4d53-9641-370e333452eb",
+  "name": "back",
+  "actionText": "/back",
+  "key": 259,
+  "keyName": "Backspace",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692793717256
+}

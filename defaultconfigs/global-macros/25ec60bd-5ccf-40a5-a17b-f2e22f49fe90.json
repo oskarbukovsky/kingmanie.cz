@@ -1,0 +1,11 @@
+{
+  "uuid": "25ec60bd-5ccf-40a5-a17b-f2e22f49fe90",
+  "name": "mine menu",
+  "actionText": "/mine menu",
+  "key": 334,
+  "keyName": "+",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692823819840
+}

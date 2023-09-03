@@ -1,0 +1,10 @@
+blockPlacementPenalty 17.5
+allowParkour true
+allowParkourPlace true
+avoidance true
+mobAvoidanceRadius 10
+itemSaver true
+mineGoalUpdateInterval 3
+allowOnlyExposedOres true
+replantNetherWart true
+breakFromAbove true

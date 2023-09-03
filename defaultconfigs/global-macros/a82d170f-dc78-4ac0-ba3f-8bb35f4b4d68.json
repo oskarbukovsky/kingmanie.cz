@@ -1,0 +1,11 @@
+{
+  "uuid": "a82d170f-dc78-4ac0-ba3f-8bb35f4b4d68",
+  "name": "mine all ores",
+  "actionText": "#mine deepslate_emerald_ore emerald_ore deepslate_diamond_ore diamond_ore deepslate_lapis_ore lapis_ore deepslate_redstone_ore redstone_ore deepslate_gold_ore gold_ore deepslate_iron_ore iron_ore deepslate_coal_ore coal_ore deepslate_copper_ore copper_ore",
+  "key": 331,
+  "keyName": "/",
+  "action": "MESSAGE",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1693679943477
+}

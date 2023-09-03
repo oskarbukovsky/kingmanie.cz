@@ -1,0 +1,11 @@
+{
+  "uuid": "968e7456-4d53-453d-bcca-0dcfb8598efc",
+  "name": "pets",
+  "actionText": "/pets",
+  "key": 335,
+  "keyName": "Keypad Enter",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692890454924
+}

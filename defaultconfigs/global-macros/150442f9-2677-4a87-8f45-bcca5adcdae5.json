@@ -1,0 +1,11 @@
+{
+  "uuid": "150442f9-2677-4a87-8f45-bcca5adcdae5",
+  "name": "xp_farm",
+  "actionText": "/home xp_farm",
+  "key": 328,
+  "keyName": "Keypad 8",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1693058032773
+}

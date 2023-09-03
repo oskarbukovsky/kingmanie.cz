@@ -1,0 +1,531 @@
+{
+  "esp": true,
+  "fullBrightConfig": {
+    "enabled": true
+  },
+  "autoFishConfig": {
+    "enabled": false
+  },
+  "armorOverlayConfig": {
+    "enabled": false
+  },
+  "blocks": {
+    "configs": [
+      {
+        "block": "minecraft:brown_mushroom_block",
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -1,
+        "maxDistance": 64.0
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -1,
+        "maxDistance": 64.0
+      },
+      {
+        "block": "minecraft:deepslate_diamond_ore",
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -10093825,
+        "maxDistance": 64.0
+      },
+      {
+        "block": "minecraft:deepslate_emerald_ore",
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -33751056,
+        "drawOutline": true,
+        "outlineColor": -9175222,
+        "maxDistance": 1000.0
+      },
+      {
+        "block": "minecraft:sculk_shrieker",
+        "enabled": true,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -42182,
+        "maxDistance": 1000.0
+      },
+      {
+        "block": "minecraft:emerald_ore",
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -8716431,
+        "maxDistance": 1000.0
+      },
+      {
+        "block": "minecraft:blackstone",
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -1,
+        "maxDistance": 96.0
+      },
+      {
+        "block": "minecraft:chest",
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -1,
+        "maxDistance": 64.0
+      }
+    ]
+  },
+  "entities": {
+    "configs": [
+      {
+        "clazz": "net.minecraft.world.entity.boss.wither.WitherBoss",
+        "glow": false,
+        "glowColor": -1,
+        "drawTitles": false,
+        "showDefaultNames": false,
+        "showHp": false,
+        "showEquippedItems": false,
+        "showOwner": false,
+        "enabled": true,
+        "drawTracers": true,
+        "tracerColor": -7467777,
+        "drawOutline": false,
+        "outlineColor": -7792129,
+        "maxDistance": 1000.0
+      },
+      {
+        "clazz": "net.minecraft.world.entity.boss.enderdragon.EnderDragon",
+        "glow": false,
+        "glowColor": -1,
+        "drawTitles": false,
+        "showDefaultNames": false,
+        "showHp": false,
+        "showEquippedItems": false,
+        "showOwner": false,
+        "enabled": true,
+        "drawTracers": true,
+        "tracerColor": -10150145,
+        "drawOutline": false,
+        "outlineColor": -10612482,
+        "maxDistance": 1000.0
+      },
+      {
+        "clazz": "net.minecraft.world.entity.vehicle.MinecartChest",
+        "glow": false,
+        "glowColor": -1,
+        "drawTitles": false,
+        "showDefaultNames": false,
+        "showHp": false,
+        "showEquippedItems": false,
+        "showOwner": false,
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -1,
+        "maxDistance": 1000.0
+      },
+      {
+        "clazz": "net.minecraft.world.entity.monster.Slime",
+        "glow": false,
+        "glowColor": -1,
+        "drawTitles": false,
+        "showDefaultNames": false,
+        "showHp": false,
+        "showEquippedItems": false,
+        "showOwner": false,
+        "enabled": false,
+        "drawTracers": false,
+        "tracerColor": -1,
+        "drawOutline": true,
+        "outlineColor": -1,
+        "maxDistance": 59.0
+      },
+      {
+        "clazz": "net.minecraft.world.entity.monster.warden.Warden",
+        "glow": false,
+        "glowColor": -1,
+        "drawTitles": false,
+        "showDefaultNames": false,
+        "showHp": false,
+        "showEquippedItems": false,
+        "showOwner": false,
+        "enabled": true,
+        "drawTracers": false,
+        "tracerColor": -14939137,
+        "drawOutline": true,
+        "outlineColor": -15200257,
+        "maxDistance": 1000.0
+      }
+    ]
+  },
+  "lightLevelConfig": {
+    "enabled": false,
+    "showLocations": false,
+    "showTracers": true,
+    "showLightLevelValue": false,
+    "useFreeCamPosition": false,
+    "maxDistance": 20.0
+  },
+  "killAuraConfig": {
+    "maxRange": 3.0,
+    "attackTickInterval": 10,
+    "maxHorizontalAngle": 55.0,
+    "maxVerticalAngle": 55.0,
+    "priorities": [
+      {
+        "name": "Enemies",
+        "enabled": true,
+        "description": "Includes Monsters, Slimes, Magma Cubes, Hoglin. Excludes Neutral Mobs (Enderman, ZombifiedPiglin). Endermen can be targeted only in creepy state."
+      },
+      {
+        "name": "Warden",
+        "enabled": true,
+        "description": "Warden",
+        "className": "net.minecraft.world.entity.monster.warden.Warden"
+      },
+      {
+        "name": "Shulker Bullets",
+        "enabled": true
+      },
+      {
+        "name": "Cave spider",
+        "enabled": true,
+        "description": "Cave spider",
+        "className": "net.minecraft.world.entity.monster.CaveSpider"
+      },
+      {
+        "name": "Slime",
+        "enabled": true,
+        "description": "Slime",
+        "className": "net.minecraft.world.entity.monster.Slime"
+      },
+      {
+        "name": "Fireballs",
+        "enabled": false,
+        "description": "Ghast projectiles."
+      }
+    ],
+    "customEntries": [
+      {
+        "name": "net.minecraft.world.entity.monster.warden.Warden",
+        "enabled": false,
+        "description": "net.minecraft.world.entity.monster.warden.Warden",
+        "className": "net.minecraft.world.entity.monster.warden.Warden"
+      },
+      {
+        "name": "Warden",
+        "enabled": false,
+        "description": "Warden",
+        "className": "net.minecraft.world.entity.monster.warden.Warden"
+      },
+      {
+        "name": "Cave spider",
+        "enabled": false,
+        "description": "Cave spider",
+        "className": "net.minecraft.world.entity.monster.CaveSpider"
+      },
+      {
+        "name": "Slime",
+        "enabled": false,
+        "description": "Slime",
+        "className": "net.minecraft.world.entity.monster.Slime"
+      }
+    ],
+    "attackAll": false,
+    "enabled": true
+  },
+  "boatHackConfig": {
+    "overrideFriction": false,
+    "friction": 0.9,
+    "fly": false,
+    "horizontalFlySpeed": 10.0,
+    "verticalFlySpeed": 5.0
+  },
+  "autoDisconnectConfig": {
+    "enabled": false
+  },
+  "shulkerTooltipConfig": {
+    "enabled": true
+  },
+  "projectilePathConfig": {
+    "enderPearls": true,
+    "bows": true,
+    "crossbows": true,
+    "tridents": true,
+    "snowballs": false,
+    "potions": false,
+    "expBottles": false,
+    "eggs": false
+  },
+  "elytraHackConfig": {
+    "enabled": false,
+    "heightControl": false,
+    "speedControl": false,
+    "horizontalSpeedLimitEnabled": false,
+    "horizontalSpeedLimit": 100.0,
+    "speedLimitEnabled": false,
+    "speedLimit": 100.0
+  },
+  "pigHackConfig": {
+    "enabled": false,
+    "allowRideWithoutCarrot": true,
+    "overrideSteeringSpeed": true,
+    "steeringSpeed": 0.1
+  },
+  "endCityChunksConfig": {
+    "enabled": false
+  },
+  "explorationMiniMapConfig": {
+    "enabled": false
+  },
+  "autoCriticalsConfig": {
+    "onlyOnGround": true,
+    "enabled": true
+  },
+  "flyHackConfig": {
+    "overrideFlyingSpeed": false,
+    "flyingSpeed": 0.05,
+    "onGroundFlag": false,
+    "enabled": false
+  },
+  "autoTotemConfig": {
+    "enabled": false
+  },
+  "deathCoordinatesConfig": {
+    "enabled": true
+  },
+  "elytraTunnelConfig": {
+    "enabled": false,
+    "limit": 122.8
+  },
+  "freeCamConfig": {
+    "acceleration": 50.0,
+    "maxSpeed": 50.0,
+    "slowdownFactor": 0.01,
+    "renderHands": true,
+    "target": true
+  },
+  "movementHackConfig": {
+    "disableSlowdownOnUseItem": false,
+    "scaleInputVector": false,
+    "inputVectorFactor": 1.0,
+    "disableCrouchingSlowdown": false,
+    "antiKnockback": false,
+    "antiPush": false,
+    "scaleJumpHeight": false,
+    "jumpHeightFactor": 1.0,
+    "disableSlimePhysics": false
+  },
+  "lockInputsConfig": {
+    "mouseInputDisabled": false,
+    "holdForward": false,
+    "holdAttack": false,
+    "holdUse": false
+  },
+  "scaffoldConfig": {
+    "distance": 0.0,
+    "replaceBlocksFromInventory": false,
+    "attachToAir": false,
+    "keepSelectedSlot": false,
+    "enabled": false
+  },
+  "advancedTooltipsConfig": {
+    "beeContainer": false,
+    "repairCost": true
+  },
+  "fogConfig": {
+    "disableFog": false,
+    "method": "SkipSetupFog"
+  },
+  "instantDisconnectConfig": {
+    "enabled": false
+  },
+  "scriptsConfig": {
+    "scripts": [
+      {
+        "name": "custom blocks",
+        "code": "blocks.toggle(\"minecraft:brown_mushroom_block\");\nif (blocks.isEnabled(\"minecraft:brown_mushroom_block\"))\n{\n    main.systemMessage(\"Custom on\");\n} else {\n    main.systemMessage(\"Custom off\");\n}"
+      },
+      {
+        "name": "diamond",
+        "code": "blocks.toggle(\"minecraft:deepslate_diamond_ore\");\nif (blocks.isEnabled(\"minecraft:deepslate_diamond_ore\"))\n{\n    main.systemMessage(\"Diamond on\");\n} else {\n    main.systemMessage(\"Diamond off\");\n}"
+      },
+      {
+        "name": "killaura",
+        "code": "killAura.toggle();\nif (killAura.isEnabled())\n{\n    main.systemMessage(\"Killaura on\");\n} else {\n    main.systemMessage(\"Killaura off\");\n}"
+      },
+      {
+        "name": "Freecam",
+        "code": "freeCam.toggle();\nif (freeCam.isEnabled())\n{\n    main.systemMessage(\"FreeCam on\");\n} else {\n    main.systemMessage(\"FreeCam off\");\n}"
+      },
+      {
+        "name": "lag",
+        "code": "fakeLag.toggle();\nif (fakeLag.isEnabled())\n{\n    main.systemMessage(\"FakeLag on\");\n} else {\n    main.systemMessage(\"FakeLag off\");\n}"
+      }
+    ]
+  },
+  "keyBindingsConfig": {
+    "bindings": [
+      "custom blocks",
+      "diamond",
+      "killaura",
+      "Freecam",
+      "lag",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "worldMarkersConfig": {
+    "entries": [],
+    "fontSize": 12,
+    "antiAliasing": false,
+    "borderWidth": 1,
+    "enabled": false
+  },
+  "userNameConfig": {
+    "enabled": false,
+    "showNameInTitle": false
+  },
+  "newChunksConfig": {
+    "enabled": false
+  },
+  "autoDropConfig": {
+    "items": []
+  },
+  "containerButtonsConfig": {
+    "showTakeAll": false,
+    "showSmartPut": false,
+    "showDropAll": false,
+    "autoTakeAll": false,
+    "autoDropAll": false,
+    "autoClose": false,
+    "useFilter": false,
+    "items": []
+  },
+  "chunksConfig": {
+    "ignoreServerViewDistance": false,
+    "dontUnloadChunks": false
+  },
+  "statusOverlayConfig": {
+    "enabled": false
+  },
+  "statusEffectsConfig": {
+    "enabled": true
+  },
+  "autoEatConfig": {
+    "isHungerLimitEnabled": true,
+    "hungerLimit": 8,
+    "enabled": true
+  },
+  "noFallConfig": {
+    "enabled": false
+  },
+  "particlesConfig": {
+    "disableBlockBreaking": false,
+    "disableBlockDestroyed": false
+  },
+  "antiRespawnResetConfig": {
+    "enabled": false
+  },
+  "fastBreakConfig": {
+    "factor": 1.2,
+    "enabled": false
+  },
+  "containerSummaryConfig": {
+    "enabled": true,
+    "showForInventory": false
+  },
+  "autoCraftConfig": {
+    "items": [],
+    "enabled": false
+  },
+  "reachConfig": {
+    "overrideReachDistance": false,
+    "reachDistance": 4.5,
+    "overrideAttackRange": false,
+    "attackRange": 3.0
+  },
+  "gameTickScriptingConfig": {
+    "enabled": false
+  },
+  "autoBucketConfig": {
+    "speedThreshold": 15.0,
+    "useWaterBucket": false,
+    "useSlimeBlock": false,
+    "useCobweb": false,
+    "useHoneyBlock": false,
+    "useHayBale": false,
+    "autoMoveOnHotbar": false,
+    "hotbarSlot": 8,
+    "autoPickUp": false,
+    "reachDistance": 4.5,
+    "enabled": false
+  },
+  "schematicaConfig": {
+    "showMissingBlockGhosts": true,
+    "missingBlockGhostsMaxDistance": 10.0,
+    "showMissingBlockTracers": false,
+    "missingBlockTracersMaxDistance": 30.0,
+    "showMissingBlockCubes": true,
+    "missingBlockCubesMaxDistance": 100.0,
+    "showWrongBlockTracers": false,
+    "wrongBlockTracersMaxDistance": 10.0,
+    "showWrongBlockCubes": false,
+    "wrongBlockCubesMaxDistance": 10.0,
+    "replaceableAsAir": false,
+    "autoBuild": false,
+    "maxRange": 5.0,
+    "autoSelectSlots": [
+      9
+    ],
+    "attachToAir": false,
+    "useShift": false,
+    "enabled": false
+  },
+  "performanceConfig": {
+    "limitBackgroundWindowFps": false,
+    "backgroundWindowFps": 20
+  },
+  "entityTitleConfig": {
+    "fontSize": 12,
+    "antiAliasing": false,
+    "enchFontSize": 12,
+    "enchAntiAliasing": false
+  },
+  "coordinateLeakProtectionConfig": {
+    "enabled": false
+  },
+  "scriptedBlockPlacerConfig": {
+    "maxRange": 5.0,
+    "autoSelectSlots": [
+      9
+    ],
+    "attachToAir": false,
+    "useShift": false,
+    "enabled": false
+  }
+}

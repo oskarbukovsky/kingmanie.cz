@@ -1,0 +1,1269 @@
+{
+  "attributes": {
+    "obscure_api:penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.mining_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "forge:step_height_addition": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.follow_range": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_per_gemstone_in_weapon_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "obscure_api:dodge": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_under_potion_effect_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.block_chance_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "obscure_api:regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.attack_speed_under_potion_effect_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.gemstones_strength_in_armor_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.luck": {
+      "enabled": true,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.armor_with_shield_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_under_potion_effect": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.armor_per_chestplate_enchantment": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "obscure_api:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crit_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "forge:reach_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.armor_per_gemstone_in_helmet": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crit_damage_per_enchantment_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_bows_charge_speed_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crit_chance_with_shield_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_per_armor_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_per_enchantment_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "minecraft:zombie.spawn_reinforcements": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_weapon_gemstone_slots_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.triple_loot_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.arrow_crit_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.armor_toughness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.axe_attack_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "obscure_api:accuracy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crit_damage_with_shield_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_armor_evasion_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.brewed_beneficial_potions_strength_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.axe_crit_chance_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.brewed_potions_strength_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.pickaxe_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "environmental:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crit_damage_multiplier_per_satisfied_hunger": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_weapon_attack_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.bow_charge_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_chestplate_gemstone_slots_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.armor_with_enchanted_shield": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.arrow_damage_per_distance_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_multiplier_if_ate_recently": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.flying_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_per_potion_effect_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_gemstone_slots_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.armor_enchantments_amplification_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "obscure_api:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.max_health": {
+      "enabled": true,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.brewed_harmful_potions_strength_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crit_chance_per_enchantment_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "minecraft:horse.jump_strength": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.armor_per_evasion_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.knockback_resistance": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.cooked_food_damage_per_restoration_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "forge:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_per_weapon_enchantment_level_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.arrow_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 10000000
+      }
+    },
+    "forge:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -8,
+        "value": -8
+      },
+      "max": {
+        "default": 8,
+        "value": 10000000
+      }
+    },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.life_on_block": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "galosphere:explosion_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crit_chance_against_poisoned_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.pickaxe_attack_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_armor_defence_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_helmets_additional_gemstone_slots": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.pickaxe_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "obscure_api:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100000,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.cooked_food_life_regeneration_per_restoration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "obscure_api:healing_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_weapon_poisons_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_with_enchanted_item": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.armor_per_gemstone_in_chestplate_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.chestplate_armor_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.cooked_food_restoration_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_knockback": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 10000000
+      }
+    },
+    "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.evasion_under_potion_effect_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_against_poisoned_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_weapon_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_armor_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.weapon_enchantments_amplification_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.life_regeneration_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "forge:nametag_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 64,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.brewed_potions_duration_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.cooked_food_critical_damage_per_restoration_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "obscure_api:parry": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.double_loot_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.evasion_chance_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.attack_damage": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.enchantments_amplification_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_evasion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.armor": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.enchantment_level_requirement_decrease": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_shields_armor_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.arrow_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "obscure_api:critical_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_armor_enchantment": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_if_ate_recently": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.gemstones_strength_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_potion_effect": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "minecraft:generic.movement_speed": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_boots_armor_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.life_per_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_enchantment": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_satisfied_hunger": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.maximum_life_per_gemstone_in_armor_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.cooked_food_healing_per_restoration_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_armor_bonus_toughness_chance_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.damage_with_shield_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.gemstones_strength_in_weapon_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
+    "skilltree:player.crafted_bows_additional_gemstone_slots": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    }
+  }
+}

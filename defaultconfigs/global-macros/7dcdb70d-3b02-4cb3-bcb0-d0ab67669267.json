@@ -1,0 +1,11 @@
+{
+  "uuid": "7dcdb70d-3b02-4cb3-bcb0-d0ab67669267",
+  "name": "ec",
+  "actionText": "/ec",
+  "key": 323,
+  "keyName": "Keypad 3",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1693415744614
+}

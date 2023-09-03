@@ -1,0 +1,11 @@
+{
+  "uuid": "d34a3c88-fbd0-4fdb-818f-7745282e0913",
+  "name": "rtp",
+  "actionText": "/rtp",
+  "key": 329,
+  "keyName": "Keypad 9",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1693077524927
+}

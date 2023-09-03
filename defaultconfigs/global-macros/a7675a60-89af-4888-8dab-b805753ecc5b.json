@@ -1,0 +1,11 @@
+{
+  "uuid": "a7675a60-89af-4888-8dab-b805753ecc5b",
+  "name": "warp panendu",
+  "actionText": "/warp panendu",
+  "key": 327,
+  "keyName": "Keypad 7",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1693058018871
+}

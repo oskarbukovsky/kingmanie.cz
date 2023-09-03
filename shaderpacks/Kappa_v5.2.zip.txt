@@ -1,0 +1,25 @@
+#Wed Aug 30 19:50:47 CEST 2023
+ssptEmissionMode=1
+blocklightBaseTemp=2200
+doColorgrading=true
+motionblurToggle=false
+lensFlareHaloToggle=true
+tonemapOperator=ACES_AP1_SRGB_RRT
+ssptFullRangeRT=true
+textureAoEnabled=true
+wetnessMode=1
+CLOUD_RENDER_LOD=4.0
+vertexAttributeFix=true
+ssptEmissionDistance=10.0
+freezeAtmosAnim=true
+ssptLightmapBlend=1.2
+ssptSPP=4
+exposureComplexEnabled=false
+directionalLMEnabled=true
+colorlumR=1.20
+UseLightleakPrevention=true
+shadowMapResolution=4096
+shadowFilterIterations=9
+lensFlareToggle=true
+ssptBounces=3
+colorlumB=0.95

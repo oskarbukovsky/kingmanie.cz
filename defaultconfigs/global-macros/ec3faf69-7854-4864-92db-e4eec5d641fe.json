@@ -1,0 +1,11 @@
+{
+  "uuid": "ec3faf69-7854-4864-92db-e4eec5d641fe",
+  "name": "stop",
+  "actionText": "#stop",
+  "key": 332,
+  "keyName": "*",
+  "action": "MESSAGE",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1693701229392
+}

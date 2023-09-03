@@ -1,0 +1,11 @@
+{
+  "uuid": "274cd145-488a-4556-bc4a-b438db551571",
+  "name": "warp",
+  "actionText": "/warp",
+  "key": 322,
+  "keyName": "Keypad 2",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692900856903
+}

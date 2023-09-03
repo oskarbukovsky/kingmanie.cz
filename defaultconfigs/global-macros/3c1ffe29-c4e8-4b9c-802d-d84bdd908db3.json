@@ -1,0 +1,11 @@
+{
+  "uuid": "3c1ffe29-c4e8-4b9c-802d-d84bdd908db3",
+  "name": "home",
+  "actionText": "/home home",
+  "key": 320,
+  "keyName": "0",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692795378958
+}

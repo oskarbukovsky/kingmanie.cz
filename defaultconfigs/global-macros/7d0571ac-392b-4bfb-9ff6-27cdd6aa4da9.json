@@ -1,0 +1,11 @@
+{
+  "uuid": "7d0571ac-392b-4bfb-9ff6-27cdd6aa4da9",
+  "name": "batoh",
+  "actionText": "/batoh",
+  "key": 330,
+  "keyName": ",",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692885782338
+}

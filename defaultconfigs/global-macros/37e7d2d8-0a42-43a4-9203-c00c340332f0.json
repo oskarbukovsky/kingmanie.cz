@@ -1,0 +1,11 @@
+{
+  "uuid": "37e7d2d8-0a42-43a4-9203-c00c340332f0",
+  "name": "spawn",
+  "actionText": "/spawn",
+  "key": 321,
+  "keyName": "Keypad 1",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692900848257
+}
