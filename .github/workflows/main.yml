@@ -1,0 +1,87 @@
+name: Create Archive
+on: 
+  [push]
+jobs:
+  tag:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Tag
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}          
+          script: |
+            try {
+                await github.git.deleteRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: "tags/latest"
+                })
+            } catch (e) {
+              console.log("The latest tag doesn't exist yet: " + e)
+            }
+            await github.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/latest",
+              sha: context.sha
+            })
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@master
+      name: Archive Release
+    - uses: thedoctor0/zip-release@main
+      with:
+        path: '${{ github.workspace }}/*'
+        directory: '../.'
+        type: 'zip'
+        filename: '${{ github.workspace }}/KingManie.cz_[1.19.2].zip'
+        exclusions: '*.git* /*node_modules/* .editorconfig'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        commit: master
+        tag: latest
+        artifacts: "${{ github.workspace }}/KingManie.cz_[1.19.2].zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+
+  zip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    #- name: ReCreate release branch
+    #  run: |
+    #    git push origin --delete release
+    #    git branch release
+
+    #- name: Checkout release branch
+    #  run: git checkout release
+
+    - name: Create release zip file
+      run: zip -r release.zip . -x "*.git*"
+      
+    - name: Dropbox Uploader
+      uses: oskarbukovsky/action-dropbox@1.0.2
+      with:
+        accessToken: ${{ secrets.DROPBOX_TOKEN }}
+        destination: /KingManie.cz
+        file: release.zip
+      
+    #- name: Track release zip with LFS
+    #  run: git lfs track release.zip
+      
+    #- name: Commit and push release zip
+    #  run: |
+    #    git config --global user.email "janoskarbukovsky@gmail.com"
+    #    git config --global user.name "Worker#001"
+    #    git add release.zip
+    #    git commit -m "Added release zip file"
+    #    git push -u origin release
