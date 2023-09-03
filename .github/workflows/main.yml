@@ -77,7 +77,7 @@ jobs:
       
     #- name: Track release zip with LFS
     #  run: git lfs track release.zip
-      
+    
     #- name: Commit and push release zip
     #  run: |
     #    git config --global user.email "janoskarbukovsky@gmail.com"
